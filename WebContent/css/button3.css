@@ -1,0 +1,80 @@
+.btn{
+    padding: 15px 45px;
+    border-radius: 0;
+    text-transform: uppercase;
+    position: relative;
+    transition: all 0.5s ease 0s;
+}
+.btn:before{
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.btn:after{
+    content: "";
+    display:block;
+    position: absolute;
+    bottom:0;
+    left:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.green{
+    border: 1px solid #00756c;
+    color:#00756c;
+    background-color: white;
+}
+.green:hover:before,
+.green:hover:after,
+.green:hover .box:before,
+.green:hover .box:after{
+    background: #00756c;
+    width: 50%;
+    height:50%;
+}
+.box:before{
+    content: "";
+    display:block;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.box:after{
+    content: "";
+    display:block;
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index: -1;
+    transition: all 0.5s ease 0s;
+    width: 0;
+    height: 0;
+}
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+.green{
+    border: 1px solid #00756c;
+    color:#00756c;
+}
+.green:hover:before,
+.green:hover:after,
+.green:hover .box:before,
+.green:hover .box:after{
+    background: #00756c;
+    width: 50%;
+    height:50%;
+}

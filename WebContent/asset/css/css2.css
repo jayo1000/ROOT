@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+ul .info {
+	font-family: "The 왼손잡이";
+	list-style-type: none;
+	display: block;
+	margin: 30px 0;
+}
+
+ul .info .title_info {
+	width: 150px;
+	margin: 0 10px;
+	font-size: 15px;
+}
+
+ul .info input[type=text], ul .info input[type=password], ul .info select, ul .info input[type=button]{
+	display: inline;
+}
+
+.contents {
+	width: 600px;
+	white-space: pre-line;
+	word-break: break-all;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
